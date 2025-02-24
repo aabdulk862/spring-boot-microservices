@@ -1,18 +1,16 @@
 package com.example;
 
-import com.example.tourservice.TourManagementService;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.example.tourservice.SpringBeans;
 import com.example.tourservice.TravelAgentService;
-import com.example.tourservice.utilities.TourRepository;
 
 public class Application {
-    public static void main(String[] args) {
-        // Must create Repo First
-        TourRepository repo = new TourRepository();
-        TravelAgentService agent = new TravelAgentService(repo);
-        
-        new TourManagementService(repo); //Creates tours in constructor
 
-        // Do not invoke agent method before manager creates base tours
+    public static void main(String[] args) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(SpringBeans.class);
+        TravelAgentService agent = context.getBean(TravelAgentService.class);
         System.out.println("\n******Explore California Tour Catalogue******");
         agent.displayTours();
 
