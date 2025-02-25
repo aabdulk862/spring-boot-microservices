@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c684f878-8d46-4d66-adc3-453d9a7adf61" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tourservice/SpringBeans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tourservice/TourManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tourservice/TourManagementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tourservice/TravelAgentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tourservice/TravelAgentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tourservice/utilities/TourRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tourservice/utilities/TourRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="c684f878-8d46-4d66-adc3-453d9a7adf61" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
